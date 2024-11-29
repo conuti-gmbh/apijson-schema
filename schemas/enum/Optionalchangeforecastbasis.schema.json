@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/enum/Optionalchangeforecastbasis.schema.json",
+  "title": "Optionalchangeforecastbasis",
+  "description": "Wahlrecht zur Änderung der Prognosegrundlage",
+  "type": "string",
+  "enum": [
+    "possible",
+    "notPossible"
+  ]
+}

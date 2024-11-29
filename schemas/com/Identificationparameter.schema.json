@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/com/Identificationparameter.schema.json",
+  "title": "Identificationparameter",
+  "type": "object",
+  "properties": {
+    "identificationDateTime": {
+      "type": "string"
+    },
+    "energyDirection": {
+      "$ref": "../enum/Energydirection.schema.json"
+    },
+    "identificationParameterId": {
+      "$ref": "../com/Identificationparameter_identificationparameterid.schema.json"
+    },
+    "identificationParameterAddress": {
+      "$ref": "../com/Identificationparameter_identificationparameteraddress.schema.json"
+    }
+  }
+}

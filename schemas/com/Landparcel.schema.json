@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/com/Landparcel.schema.json",
+  "title": "Landparcel",
+  "type": "object",
+  "properties": {
+    "districtName": {
+      "type": "string"
+    },
+    "lotNumber": {
+      "type": "string"
+    },
+    "subLotNumber": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/com/Geographiccoordinates.schema.json",
+  "title": "Geographiccoordinates",
+  "type": "object",
+  "properties": {
+    "latitude": {
+      "type": "string"
+    },
+    "longitude": {
+      "type": "string"
+    },
+    "east": {
+      "type": "string"
+    },
+    "north": {
+      "type": "string"
+    },
+    "zone": {
+      "$ref": "../enum/Zone.schema.json"
+    },
+    "northing": {
+      "type": "string"
+    },
+    "easting": {
+      "type": "string"
+    }
+  }
+}

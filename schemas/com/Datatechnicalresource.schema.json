@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/com/Datatechnicalresource.schema.json",
+  "title": "Datatechnicalresource",
+  "type": "object",
+  "properties": {
+    "trId": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/com/Marketlocationmeasuringpointoperator.schema.json",
+  "title": "Marketlocationmeasuringpointoperator",
+  "type": "object",
+  "properties": {
+    "marketPartnerId": {
+      "type": "integer"
+    },
+    "executionTimeFrom": {
+      "type": "string"
+    },
+    "executionTimeUntil": {
+      "type": "string"
+    }
+  }
+}

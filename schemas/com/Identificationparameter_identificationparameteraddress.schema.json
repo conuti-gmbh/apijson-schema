@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/com/Identificationparameter_identificationparameteraddress.schema.json",
+  "title": "Identificationparameter_identificationparameteraddress",
+  "type": "object",
+  "properties": {
+    "name": {
+      "$ref": "../com/Name.schema.json"
+    },
+    "address": {
+      "$ref": "../com/Address.schema.json"
+    },
+    "landParcels": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Landparcel.schema.json"
+      }
+    },
+    "geographicCoordinates": {
+      "$ref": "../com/Geographiccoordinates.schema.json"
+    }
+  }
+}

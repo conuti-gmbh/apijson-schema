@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/com/Marketlocationdatetime.schema.json",
+  "title": "Marketlocationdatetime",
+  "type": "object",
+  "properties": {
+    "maloId": {
+      "type": "string"
+    },
+    "executionTimeFrom": {
+      "type": "string"
+    },
+    "executionTimeUntil": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/enum/Marketlocationproperty.schema.json",
+  "title": "Marketlocationproperty",
+  "description": "Eigenschaft der Marktlokation. nonActice=ruhende Marktlokation, customerFacility=Marktlokation ist eine Kundenanlage, standard=alle \"Standard\" Marktlokationen die nicht unter die Eigenschaft \"ruhende Marktlokation\" und \"Kundenanlage\" fallen.",
+  "type": "string",
+  "enum": [
+    "customerFacility",
+    "nonActice",
+    "standard"
+  ]
+}

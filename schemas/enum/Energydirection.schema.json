@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/enum/Energydirection.schema.json",
+  "title": "Energydirection",
+  "description": "Energieflussrichtung der Marktlokation",
+  "type": "string",
+  "enum": [
+    "consumption",
+    "production"
+  ]
+}

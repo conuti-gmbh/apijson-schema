@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/enum/Proportion.schema.json",
+  "title": "Proportion",
+  "description": "Gibt die Bildungslogik der Tranche an",
+  "type": "string",
+  "enum": [
+    "bilateralAgreement",
+    "percent"
+  ]
+}

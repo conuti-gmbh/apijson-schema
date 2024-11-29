@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/enum/Zone.schema.json",
+  "title": "Zone",
+  "description": "Angabe des UTM Zonenwertes nach WGS84.",
+  "type": "string",
+  "enum": [
+    "UTMZone31",
+    "UTMZone32",
+    "UTMZone33"
+  ]
+}

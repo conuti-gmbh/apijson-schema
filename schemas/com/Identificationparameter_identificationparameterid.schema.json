@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/com/Identificationparameter_identificationparameterid.schema.json",
+  "title": "Identificationparameter_identificationparameterid",
+  "type": "object",
+  "properties": {
+    "maloId": {
+      "type": "string"
+    },
+    "tranchenIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "meloIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "meterNumbers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "customerNumber": {
+      "type": "string"
+    }
+  }
+}

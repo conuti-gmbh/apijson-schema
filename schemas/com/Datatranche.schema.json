@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/com/Datatranche.schema.json",
+  "title": "Datatranche",
+  "type": "object",
+  "properties": {
+    "tranchenId": {
+      "type": "string"
+    },
+    "proportion": {
+      "$ref": "../enum/Proportion.schema.json"
+    },
+    "percent": {
+      "type": "number",
+      "format": "float"
+    },
+    "dataTrancheSuppliers": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Tranchesupplier.schema.json"
+      }
+    }
+  }
+}

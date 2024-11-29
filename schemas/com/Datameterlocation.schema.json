@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/com/Datameterlocation.schema.json",
+  "title": "Datameterlocation",
+  "type": "object",
+  "properties": {
+    "meloId": {
+      "type": "string"
+    },
+    "meterNumber": {
+      "type": "string"
+    },
+    "dataMeterLocationMeasuringPointOperators": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Meterlocationmeasuringpointoperator.schema.json"
+      }
+    }
+  }
+}

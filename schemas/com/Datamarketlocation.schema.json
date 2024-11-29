@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/com/Datamarketlocation.schema.json",
+  "title": "Datamarketlocation",
+  "type": "object",
+  "properties": {
+    "maloId": {
+      "type": "string"
+    },
+    "energyDirection": {
+      "$ref": "../enum/Energydirection.schema.json"
+    },
+    "measurementTechnologyClassification": {
+      "$ref": "../enum/Measurementtechnologyclassification.schema.json"
+    },
+    "optionalChangeForecastBasis": {
+      "$ref": "../enum/Optionalchangeforecastbasis.schema.json"
+    },
+    "dataMarketLocationProperties": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Marketlocationproperties.schema.json"
+      }
+    },
+    "dataMarketLocationNetworkOperators": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Marketlocationnetworkoperator.schema.json"
+      }
+    },
+    "dataMarketLocationMeasuringPointOperators": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Marketlocationmeasuringpointoperator.schema.json"
+      }
+    },
+    "dataMarketLocationTransmissionSystemOperators": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Marketlocationtransmissionsystemoperator.schema.json"
+      }
+    },
+    "dataMarketLocationSuppliers": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Marketlocationsupplier.schema.json"
+      }
+    },
+    "dataMarketLocationName": {
+      "$ref": "../com/Name.schema.json"
+    },
+    "dataMarketLocationAddress": {
+      "$ref": "../com/Address.schema.json"
+    },
+    "dataMarketLocationLandParcels": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Landparcel.schema.json"
+      }
+    },
+    "dataMarketLocationGeographicCoordinates": {
+      "$ref": "../com/Geographiccoordinates.schema.json"
+    }
+  }
+}

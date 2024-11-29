@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/com/Datanetworklocation.schema.json",
+  "title": "Datanetworklocation",
+  "type": "object",
+  "properties": {
+    "neloId": {
+      "type": "string"
+    },
+    "dataNetworkLocationMeasuringPointOperators": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Networklocationmeasuringpointoperator.schema.json"
+      }
+    }
+  }
+}
