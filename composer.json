@@ -1,0 +1,14 @@
+{
+  "name": "conuti/apijson-schema",
+  "description": "API JSON schema",
+  "authors": [
+    {
+      "name": "Kevin Meier",
+      "email": "kevin.meier@conuti.de"
+    }
+  ],
+  "type": "library",
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "license": "MIT"
+}
